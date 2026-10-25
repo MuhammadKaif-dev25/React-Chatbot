@@ -1,16 +1,27 @@
-# React + Vite
+🤖 AI Chatbot Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and fully functional chat interface built from scratch using React, Tailwind CSS, and powered by the Google Gemini API.
 
-Currently, two official plugins are available:
+✨ Features
+⚛️ React Hooks: Leverages useState, useEffect, and useRef for efficient state management and dynamic UI rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🎨 Tailwind CSS: Styled with a clean, modern, and fully responsive dark-mode interface.
 
-## React Compiler
+🧠 Google Gemini Integration: Connects directly to Google's Gemini Flash model via Axios for fast, intelligent responses.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📜 Smart UX Elements:
 
-## Expanding the ESLint configuration
+Auto-scrolling to the latest message using smooth behavior.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Real-time typing indicators and loading states while waiting for AI generation.
+
+Controlled inputs with automatic clearing upon submission.
+
+🛠️ Tech Stack
+Frontend: React (Vite)
+
+Styling: Tailwind CSS
+
+HTTP Client: Axios
+
+AI Provider: Google Generative AI (Gemini API)
