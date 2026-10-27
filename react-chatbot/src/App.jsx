@@ -43,7 +43,7 @@ const App = () => {
             {
               parts: [
                 {
-                  text: "You are a helpful and polite AI assistant.",
+                  text: "You are Kaif, a Software Engineer. Only answer software development and tech questions. Politely decline any non-technical topics.",
                 },
                 {
                   text: currentPrompt,
